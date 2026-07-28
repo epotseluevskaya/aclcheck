@@ -15,7 +15,7 @@ python3 aclcheck.py domain.local/user -principal targetuser -k -no-pass -dc-host
 ```
 Sample output:
 ```
-python aclcheck_light_v5.py -dc-ip 10.10.10.10 -principal alice domain.local/alice:'Password' -use-ldaps
+python aclcheck.py -dc-ip 10.10.10.10 -principal alice domain.local/alice:'Password' -use-ldaps
 
 Impacket v0.13.1 - Copyright Fortra, LLC and its affiliated companies 
 
